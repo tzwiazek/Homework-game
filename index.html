@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="utf-8">
+   <title>#</title>
+   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
+   <link rel="Stylesheet" type="text/css" href="style.css" />
+   
+   <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+   <![endif]-->
+</head>
+<body>
+<div id="rules">
+   <h1>Zasady</h1>
+   <p>1. Możesz zabrać 1, 2 lub 3 zapałki w każdym ruchu</p>
+   <p>2. Przegrywa ten, kto zabierze ostatnią zapałkę</p>
+   <p>3. Na początku należy podać liczbę zapałek do gry (więcej niż 4)</p>
+   <a href="http://www.n-s.pl/wlodzimierzraczynski/1/gra_w_%20zapalki.htm">Oryginał</a>
+</div>
+<div id="wrapper">
+   <div id="menu-start">
+      <div class="title">
+         <h1>Gra w zapałki</h1>
+      </div>
+      <div class="box">
+         <i class="fas fa-desktop"></i>
+      </div>
+      <div class="box">
+         <i class="fas fa-users"></i>
+      </div>
+   </div>
+   <div id="game1">
+      <div class="title">
+         <h1>vs komputer</h1>
+      </div>
+      <div class="game-container">
+         <div class="game-box"></div>
+         <div class="game-box"></div>
+         <div class="game-box"></div>
+      </div>
+      <div class="game-footer">
+         <div class="previous_movement">
+            Gracz zabrał: <span>0</span><span> zapałek</span>
+            <br />
+            Komputer zabrał: <span>0</span><span> zapałek</span>
+            <br />
+            Liczba zapałek w grze: <span class="game1 amount"></span>
+         </div>
+      </div>
+   </div>
+   <div id="game2">
+      <div class="title">
+         <h1>multiplayer</h1>
+      </div>
+      <div class="game-container">
+         <div class="game-box"></div>
+         <div class="game-box"></div>
+         <div class="game-box"></div>
+      </div>
+      <div class="game-footer">
+         <div class="previous_movement">
+            <div class="player1">Gracz <span></span> zabrał: <span>0</span><span> zapałek</span></div>
+            <div class="player2">Gracz <span></span> zabrał: <span>0</span><span> zapałek</span></div>
+            Liczba zapałek w grze: <span class="game2 amount"></span>
+         </div>
+      </div>
+   </div>
+</div>
+<script src="js.js"></script>
+</body>
+</html>
